@@ -96,3 +96,4 @@ The simulator relies on a lightweight, modern FinTech web stack:
 ## 4. Updates & Synced Features
 This explainer remains synchronized with code changes. 
 * *May 20, 2026:* Fixed strict TypeScript compiler warnings by resolving unused imports and parameters in `App.tsx` and `About.tsx`, achieving a clean 100% compile rate for production.
+* *May 20, 2026:* Configured Vite base-path to `/Mortgage-Rate-Lock-Simulator/` and updated static hero image references to relative paths for flawless deployment and asset loading on GitHub Pages.
