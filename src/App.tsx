@@ -451,7 +451,7 @@ export default function App() {
       
       {/* Navigation Header */}
       <nav className="border-b border-gray-800 bg-gray-950/80 backdrop-blur-md sticky top-0 z-50">
-        <div className="max-w-4xl mx-auto px-6 md:px-12 h-20 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 h-20 flex items-center justify-between">
           <div 
             className="flex items-center gap-3 cursor-pointer group"
             onClick={() => setView('simulator')}
@@ -482,14 +482,14 @@ export default function App() {
               }`}
             >
               <BookOpen size={16} />
-              Industry Context
+              About
             </button>
           </div>
         </div>
       </nav>
 
       <main className="p-6 md:p-12">
-        <div className="max-w-4xl mx-auto">
+        <div className={`mx-auto transition-all duration-300 ${view === 'about' ? 'max-w-7xl' : 'max-w-4xl'}`}>
           {view === 'simulator' ? <Simulator /> : <About />}
         </div>
       </main>

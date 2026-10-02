@@ -95,6 +95,15 @@ The simulator relies on a lightweight, modern FinTech web stack:
 
 ## 4. Updates & Synced Features
 This explainer remains synchronized with code changes. 
+* *October 2, 2026:* Replaced the legacy industry context section with a comprehensive, interactive 8-section **About Page & FinTech Learning Deck** featuring:
+  1. Problem & Core Concept (Escrow volatility lifecycle and rate-lock hedging).
+  2. Required Domain Knowledge (Basis Points, Amortization Math, LTV, DTI Shock Rule, and Treasury Spreads with live BPS converter).
+  3. High-Level Data Flow & Architecture (Multi-tiered pipeline diagram from FRED ingestion to reactive client-side math).
+  4. Stakeholders & User Personas (Homebuyers, MLOs, Underwriters, and FinTech Students).
+  5. Commercial Valuations ($94k–$137k enterprise delivery breakdown across 6 phases).
+  6. College & Resume Strategy (1-click copyable STAR resume bullet points and interview pitches).
+  7. AI Vibe-Coding Prompt Runway (Collapsible cards with copy icons for Phased Prompts 1.1–1.4).
+  8. Further Enhancements Roadmap (Monte Carlo simulations, multi-product loan matrix, float-down analyzers).
 * *May 20, 2026:* Fixed strict TypeScript compiler warnings by resolving unused imports and parameters in `App.tsx` and `About.tsx`, achieving a clean 100% compile rate for production.
 * *May 20, 2026:* Configured Vite base-path to `/Mortgage-Rate-Lock-Simulator/` and updated static hero image references to relative paths for flawless deployment and asset loading on GitHub Pages.
 * *May 20, 2026:* Created `.github/workflows/deploy.yml` to automate dependency fetching, production building via `pnpm`, and artifact deployment to GitHub Pages upon pushing to the `main` branch.
